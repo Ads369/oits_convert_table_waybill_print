@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "converter-table"
+version = "0.1.0"
+description = ""
+authors = ["aleksandrov_ds <aleksandrov_ds@smart-transport.ru>"]
+readme = "README.md"
+packages = [{include = "converter_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
